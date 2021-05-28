@@ -1,10 +1,13 @@
-body {
-  
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: 13px;
-    height: 1080;
-    width:1920;
+html {
+    height: 50%;
+  }
+  body {
+    min-height: 50px;
    
+    margin: 0 auto;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 13px;
+    width: 960;
     color: var(--primary-text-color);
     line-height: 154%;
     margin: 0;
@@ -12,20 +15,20 @@ body {
   
   .table td,
   .table th {
-    padding: 20px;
+    /* padding: 20px; */
   }
-  .submit{
-      margin-left: 500px;
-   
+  .submit {
+    margin-left: 450px;
   }
-   .text-center{
-      width: 710;
-      height: 30;
-      color: white;
+  .text-center {
+    width: 710;
+    height: 30;
+    color: white;
   }
   
- /* .img{
-      height: 44;
-      width: 144;
-       text-align: justify;
-  } */
+  /* .img{
+        height: 44;
+        width: 144;
+         text-align: justify;
+    } */
+  
