@@ -12,20 +12,20 @@ body {
   
   .table td,
   .table th {
-    /* padding: 20px; */
+    padding: 20px;
   }
   .submit{
       margin-left: 500px;
+   
   }
-  .text-center{
+   .text-center{
       width: 710;
       height: 30;
-      color: gray;
+      color: white;
   }
   
-  /* .img{
-      height: 80;
-      width: 1920;
+ /* .img{
+      height: 44;
+      width: 144;
+       text-align: justify;
   } */
- 
-  

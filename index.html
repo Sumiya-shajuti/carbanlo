@@ -19,11 +19,10 @@
 
 <body>
     <div class="container mt-5">
-        <!-- <img src="c.png"style="height: 150px;
-   margin-right: 30Px; " alt=""> -->
+       <center><img src="c.png" style="height:180px;" alt=""></center> 
         <h3 class="text-center mb-3"><strong>PLEASE RESPOND TO THE CUSTOMIZED CHEMICAL REQUIREMENT</strong></h3>
         <div class="table-responsive">
-            <table class="table  table-hover">
+            <table class="table  table-hover" id="table">
                 <thead class="table-light">
                     <tr>
                         <th scope="col">Products Details</th>
@@ -34,91 +33,104 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <th scope="row">Erioglaucine sodium salt
-                        <br />
-                        CAS No. 19774-82-4
-                    </th>
-                    <td>99.99%</td>
-                    <td>50 kg</td>
-                    <td>10</td>
-                    <td class="text-right">
-                        <div id="myForm"class="btn-group" role="group" aria-label="Basic outlined example">
-                            <button type="button" class="btn btn-outline-primary" style="width:80px;">Yes</button>
-                            <button type="button" class="btn btn-outline-primary" style="width:80px;">No</button>
-                        </div>
-                    </td>
-
-                    </tr>
-                    <th scope="row">MANGANESE DIOXIDE Extra Pure
-                        <br />
-                        CAS No. 19774-82-4
-                    </th>
-                    <td>98%</td>
-                    <td>10 kg</td>
-                    <td>5</td>
-                    <td class="text-right">
-                        <div id="myForm" class="btn-group" role="group" aria-label="Basic outlined example">
-                            <button type="button" class="btn btn-outline-primary" style="width:80px;">Yes</button>
-                            <button type="button" class="btn btn-outline-primary" style="width:80px;">No</button>
-                        </div>
-                    </td>
-
-                    </tr>
                     <tr>
-                        <th scope="row">Varenicline Nitraso Impurity
+                        <th scope="row"><strong><u>Erioglaucine sodium salt</u></strong>
                             <br />
                             CAS No. 19774-82-4
+                        </th>
+                        <td>99.99%</td>
+                        <td>50 kg</td>
+                        <td>10</td>
+                        <td class="btn-group" role="group">
+
+                            <button id="one" type="button" class="btn btn-outline-primary YesNo"
+                                style="width:80px;">Yes</button>
+
+                            <button id="two" type="button" class="btn btn-outline-primary YesNo"
+                                style="width:80px;">No</button>
+
+                        </td>
+                    </tr>
+                    <trf>
+                        <th scope="row"><strong><u>MANGANESE DIOXIDE Extra Pure</u></strong>
+                            <br />
+                            CAS No. 19774-82-4
+                        </th>
+                        <td>98%</td>
+                        <td>10 kg</td>
+                        <td>5</td>
+                        <td class="btn-group" role="group">
+
+                            <button id="three" type="button" class="btn btn-outline-primary YesNo"
+                                style="width:80px;">Yes</button>
+                            <button id="four" type="button" class="btn btn-outline-primary YesNo"
+                                style="width:80px;">No</button>
+
+                        </td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row"><strong><u>Varenicline Nitraso Impurity</u></strong>
+                                <br />
+                                CAS No. 19774-82-4
+                                </td>
+                            <td>100%</td>
+                            <td>100 kg</td>
+                            <td>1</td>
+                            <td class="btn-group" role="group">
+
+                                <button id="five" type="button" class="btn btn-outline-primary YesNo"
+                                    style="width:80px;">Yes</button>
+                                <button id="six" type="button" class="btn btn-outline-primary YesNo"
+                                    style="width:80px;">No</button>
+
                             </td>
-                        <td>100%</td>
-                        <td>100 kg</td>
-                        <td>1</td>
-                        <td class="text-right">
-                            <div id="myForm"class="btn-group" role="group" aria-label="Basic outlined example">
-                                <button type="button" class="btn btn-outline-primary" style="width:80px;">Yes</button>
-                                <button type="button" class="btn btn-outline-primary" style="width:80px;">No</button>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Diethanolamine (For Synthesis)
-                            <br />
-                            CAS No. 19774-82-4
-                        </th>
-                        <td>99%</td>
-                        <td>1 kg</td>
-                        <td>3</td>
-                        <td class="text-right">
-                            <div id="myForm"class="btn-group" role="group" aria-label="Basic outlined example">
-                                <button type="button" class="btn btn-outline-primary" style="width:80px;">Yes</button>
-                                <button type="button" class="btn btn-outline-primary" style="width:80px;">No</button>
-                            </div>
-                        </td>
+                        </tr>
+                        <tr>
+                            <th scope="row"><strong><u>Diethanolamine (For Synthesis)</u></strong>
+                                <br />
+                                CAS No. 19774-82-4
+                            </th>
+                            <td>99%</td>
+                            <td>1 kg</td>
+                            <td>3</td>
+                            <td class="btn-group" role="group">
 
-                    </tr>
-                    <tr>
-                        <th scope="row">Cyclohexylamine extrapure AR
-                            <br />
-                            CAS No. 19774-82-4
-                        </th>
-                        <td>90%</td>
-                        <td>3 kg</td>
-                        <td>6</td>
-                        <td class="text-right">
-                            <div class="btn-group" role="group" aria-label="Basic outlined example">
-                                <button id="myForm" type="button" class="btn btn-outline-primary" style="width:80px;">Yes</button>
-                                <button  type="button" class="btn btn-outline-primary" style="width:80px;">No</button>
-                            </div>
+                                <button id="seven" type="button" class="btn btn-outline-primary YesNo"
+                                    style="width:80px;">Yes</button>
+                                <button id="eight" type="button" class="btn btn-outline-primary YesNo"
+                                    style="width:80px;">No</button>
 
-                        </td>
+                            </td>
 
-                    </tr>
+                        </tr>
+                        <tr>
+                            <th scope="row"><strong><u>Cyclohexylamine extrapure AR</u></strong>
+                                <br />
+                                CAS No. 19774-82-4
+                            </th>
+                            <td>90%</td>
+                            <td>3 kg</td>
+                            <td>6</td>
+                            <td class="btn-group" role="group">
+
+                                <button id="nine" type="button" class="btn btn-outline-primary YesNo"
+                                    style="width:80px;">Yes</button>
+                                <button id="ten" type="button" class="btn btn-outline-primary YesNo"
+                                    style="width:80px;">No</button>
+
+
+                            </td>
+
+                        </tr>
 
                 </tbody>
             </table>
-            <div id="myForm" class="btn-group" role="group" aria-label="Basic outlined example">
-            <button class="btn btn-outline-primary submit" style="width:180px;">SUBMIT</button>
-            </div>
-            
+
+            <button id="final" class="btn btn-outline-light submit " style="width:180px;background-color: gray;"
+                disabled>SUBMIT</button>
+
+
         </div>
     </div>
 
